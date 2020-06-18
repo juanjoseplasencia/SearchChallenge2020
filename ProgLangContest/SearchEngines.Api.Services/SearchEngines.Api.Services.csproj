@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Contracts\**" />
+    <EmbeddedResource Remove="Contracts\**" />
+    <None Remove="Contracts\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="SearchEnginesList.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="SearchEngines.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SearchEngines.Api.Services.Contracts\SearchEngines.Api.Services.Contracts.csproj" />
+  </ItemGroup>
+
+</Project>

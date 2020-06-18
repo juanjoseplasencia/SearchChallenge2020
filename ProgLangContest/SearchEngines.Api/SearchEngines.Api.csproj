@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Controllers\WeatherForecastController.cs" />
+    <Compile Remove="WeatherForecast.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Config\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SearchEngines.Api.Services.Contracts\SearchEngines.Api.Services.Contracts.csproj" />
+    <ProjectReference Include="..\SearchEngines.Api.Services\SearchEngines.Api.Services.csproj" />
+  </ItemGroup>
+
+
+</Project>
