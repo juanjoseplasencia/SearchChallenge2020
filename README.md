@@ -8,12 +8,12 @@ The internals of the search implementation for each search engine are managed by
 loaded dinamically, each search engine can implement the search on its own and using its 3rd party search api.    
  
 To review the solution:
-1 - Open the solution in Visual Studio 2019
-2 - Start a new debugging instance of the project: SearchEngines.Api; In the browser, the 'is alive' starting point to try is: http://localhost:50938/api/search
-3 - Start a new debugging session of the project : SearchFight (Console) , or
-4 - Go to the path: SearchFight\bin\Debug\netcoreapp3.1 :
- 4.1 - Open Cmd window
- 4.2 - Type a line to execute , for example: SearchFight.exe .net java "java script" scala python
+1 - Open the solution in Visual Studio 2019 
+2 - Start a new debugging instance of the project: SearchEngines.Api; In the browser, the 'is alive' starting point to try is: http://localhost:50938/api/search  
+3 - Start a new debugging session of the project : SearchFight (Console) , or  
+4 - Go to the path: SearchFight\bin\Debug\netcoreapp3.1 :  
+ 4.1 - Open Cmd window  
+ 4.2 - Type a line to execute , for example: SearchFight.exe .net java "java script" scala python  
    
 # SearchFight.NetFramework: 
 Solution with the initial implementation for .Net framework. For compatibility and initial verification purposes.   
